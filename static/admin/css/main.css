@@ -1,0 +1,69 @@
+.user_card {
+            width: 350px;
+            margin-top: auto;
+			margin-bottom: auto;
+			background: #ffffff;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+}
+
+.form_container {
+			margin-top: 20px;
+}
+
+#form-title{
+			color: #000000;
+}
+.login_btn {
+			width: 100%;
+			background: #000000 !important;
+			color: #ffffff !important;
+}
+.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+}
+.login_container {
+			padding: 0 2rem;
+}
+.input-group-text {
+			background: #000000 !important;
+			color: #ffffff !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+}
+.ondertiteling{
+	color: #000000
+}
+.donkerachtergrond{
+	background: #000000 !important;
+	color: #ffffff !important;
+
+}
+.navrechts{
+	margin-right: 20px;
+    color: gray;
+	font-size: 18px;
+	}
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.outline{
+	  border-radius: 5px;
+	  border: 2px solid black;
+}

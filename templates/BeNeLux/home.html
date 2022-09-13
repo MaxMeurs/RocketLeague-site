@@ -1,0 +1,35 @@
+{% extends 'BeNeLux/base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="card mb-3">
+  <img class="card-img-top" src="{% static 'admin/img/Banner_RL_Nederland_2.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+
+
+
+    <div class="card">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+            <h5 class="card-title">Rocket League BENELUX</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+<img src="{% static 'admin/img/Banner_RL_Nederland_2.jpg' %}"class="rounded mx-auto d-block" height="240">
+
+
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Over ons</h5>
+        <p class="card-text">Welkom bij de site van Rocket League BENELUX!</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+
+{% endblock %}
